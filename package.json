@@ -1,0 +1,39 @@
+{
+  "name": "packet-sniffy",
+  "version": "1.0.0",
+  "description": "packet-sniffy is a packet sniffer based on scapy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "npm",
+    "scapy",
+    "packet",
+    "ports"
+  ],
+  "author": "notme6000",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.notme6000.packet.sniffy",
+    "productName": "packet-sniffy",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "tar.gz"
+      ],
+      "category": "Utility",
+      "icon": "bg-img/icon.png"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
