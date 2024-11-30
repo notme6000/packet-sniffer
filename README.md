@@ -4,3 +4,4 @@
 - Before running the program you need to download and install nodejs
 - I have used python network module *scapy*
 - *node_modules* and *dist* is added to *.gitignore*
+- only works in linux with gnome environment.
